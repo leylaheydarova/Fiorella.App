@@ -1,12 +1,256 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Learning Programming\\Jed Academy\\Backend\\MVS\\Fiorella\\Fiorella.App\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7CF671D4-0C48-4DA0-8FDD-BEEA76E23B73}|Fiorella.App\\Fiorella.App.csproj|c:\\users\\user\\desktop\\learning programming\\jed academy\\backend\\mvs\\fiorella\\fiorella.app\\fiorella.app\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7CF671D4-0C48-4DA0-8FDD-BEEA76E23B73}|Fiorella.App\\Fiorella.App.csproj|solutionrelative:fiorella.app\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CF671D4-0C48-4DA0-8FDD-BEEA76E23B73}|Fiorella.App\\Fiorella.App.csproj|c:\\users\\user\\desktop\\learning programming\\jed academy\\backend\\mvs\\fiorella\\fiorella.app\\fiorella.app\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7CF671D4-0C48-4DA0-8FDD-BEEA76E23B73}|Fiorella.App\\Fiorella.App.csproj|solutionrelative:fiorella.app\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CF671D4-0C48-4DA0-8FDD-BEEA76E23B73}|Fiorella.App\\Fiorella.App.csproj|c:\\users\\user\\desktop\\learning programming\\jed academy\\backend\\mvs\\fiorella\\fiorella.app\\fiorella.app\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7CF671D4-0C48-4DA0-8FDD-BEEA76E23B73}|Fiorella.App\\Fiorella.App.csproj|solutionrelative:fiorella.app\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CF671D4-0C48-4DA0-8FDD-BEEA76E23B73}|Fiorella.App\\Fiorella.App.csproj|c:\\users\\user\\desktop\\learning programming\\jed academy\\backend\\mvs\\fiorella\\fiorella.app\\fiorella.app\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CF671D4-0C48-4DA0-8FDD-BEEA76E23B73}|Fiorella.App\\Fiorella.App.csproj|solutionrelative:fiorella.app\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CF671D4-0C48-4DA0-8FDD-BEEA76E23B73}|Fiorella.App\\Fiorella.App.csproj|c:\\users\\user\\desktop\\learning programming\\jed academy\\backend\\mvs\\fiorella\\fiorella.app\\fiorella.app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CF671D4-0C48-4DA0-8FDD-BEEA76E23B73}|Fiorella.App\\Fiorella.App.csproj|solutionrelative:fiorella.app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CF671D4-0C48-4DA0-8FDD-BEEA76E23B73}|Fiorella.App\\Fiorella.App.csproj|c:\\users\\user\\desktop\\learning programming\\jed academy\\backend\\mvs\\fiorella\\fiorella.app\\fiorella.app\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7CF671D4-0C48-4DA0-8FDD-BEEA76E23B73}|Fiorella.App\\Fiorella.App.csproj|solutionrelative:fiorella.app\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CF671D4-0C48-4DA0-8FDD-BEEA76E23B73}|Fiorella.App\\Fiorella.App.csproj|c:\\users\\user\\desktop\\learning programming\\jed academy\\backend\\mvs\\fiorella\\fiorella.app\\fiorella.app\\context\\fiorelladbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CF671D4-0C48-4DA0-8FDD-BEEA76E23B73}|Fiorella.App\\Fiorella.App.csproj|solutionrelative:fiorella.app\\context\\fiorelladbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CF671D4-0C48-4DA0-8FDD-BEEA76E23B73}|Fiorella.App\\Fiorella.App.csproj|c:\\users\\user\\desktop\\learning programming\\jed academy\\backend\\mvs\\fiorella\\fiorella.app\\fiorella.app\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CF671D4-0C48-4DA0-8FDD-BEEA76E23B73}|Fiorella.App\\Fiorella.App.csproj|solutionrelative:fiorella.app\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CF671D4-0C48-4DA0-8FDD-BEEA76E23B73}|Fiorella.App\\Fiorella.App.csproj|c:\\users\\user\\desktop\\learning programming\\jed academy\\backend\\mvs\\fiorella\\fiorella.app\\fiorella.app\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CF671D4-0C48-4DA0-8FDD-BEEA76E23B73}|Fiorella.App\\Fiorella.App.csproj|solutionrelative:fiorella.app\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CF671D4-0C48-4DA0-8FDD-BEEA76E23B73}|Fiorella.App\\Fiorella.App.csproj|c:\\users\\user\\desktop\\learning programming\\jed academy\\backend\\mvs\\fiorella\\fiorella.app\\fiorella.app\\models\\base models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CF671D4-0C48-4DA0-8FDD-BEEA76E23B73}|Fiorella.App\\Fiorella.App.csproj|solutionrelative:fiorella.app\\models\\base models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CF671D4-0C48-4DA0-8FDD-BEEA76E23B73}|Fiorella.App\\Fiorella.App.csproj|c:\\users\\user\\desktop\\learning programming\\jed academy\\backend\\mvs\\fiorella\\fiorella.app\\fiorella.app\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7CF671D4-0C48-4DA0-8FDD-BEEA76E23B73}|Fiorella.App\\Fiorella.App.csproj|solutionrelative:fiorella.app\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CF671D4-0C48-4DA0-8FDD-BEEA76E23B73}|Fiorella.App\\Fiorella.App.csproj|c:\\users\\user\\desktop\\learning programming\\jed academy\\backend\\mvs\\fiorella\\fiorella.app\\fiorella.app\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7CF671D4-0C48-4DA0-8FDD-BEEA76E23B73}|Fiorella.App\\Fiorella.App.csproj|solutionrelative:fiorella.app\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CF671D4-0C48-4DA0-8FDD-BEEA76E23B73}|Fiorella.App\\Fiorella.App.csproj|c:\\users\\user\\desktop\\learning programming\\jed academy\\backend\\mvs\\fiorella\\fiorella.app\\fiorella.app\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CF671D4-0C48-4DA0-8FDD-BEEA76E23B73}|Fiorella.App\\Fiorella.App.csproj|solutionrelative:fiorella.app\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CF671D4-0C48-4DA0-8FDD-BEEA76E23B73}|Fiorella.App\\Fiorella.App.csproj|c:\\users\\user\\desktop\\learning programming\\jed academy\\backend\\mvs\\fiorella\\fiorella.app\\fiorella.app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7CF671D4-0C48-4DA0-8FDD-BEEA76E23B73}|Fiorella.App\\Fiorella.App.csproj|solutionrelative:fiorella.app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Learning Programming\\Jed Academy\\Backend\\MVS\\Fiorella\\Fiorella.App\\Fiorella.App\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Fiorella.App\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Learning Programming\\Jed Academy\\Backend\\MVS\\Fiorella\\Fiorella.App\\Fiorella.App\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Fiorella.App\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKgDAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T21:09:57.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Learning Programming\\Jed Academy\\Backend\\MVS\\Fiorella\\Fiorella.App\\Fiorella.App\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Fiorella.App\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Learning Programming\\Jed Academy\\Backend\\MVS\\Fiorella\\Fiorella.App\\Fiorella.App\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Fiorella.App\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T21:08:44.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Learning Programming\\Jed Academy\\Backend\\MVS\\Fiorella\\Fiorella.App\\Fiorella.App\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Fiorella.App\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Learning Programming\\Jed Academy\\Backend\\MVS\\Fiorella\\Fiorella.App\\Fiorella.App\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Fiorella.App\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T21:00:48.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Learning Programming\\Jed Academy\\Backend\\MVS\\Fiorella\\Fiorella.App\\Fiorella.App\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Fiorella.App\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Learning Programming\\Jed Academy\\Backend\\MVS\\Fiorella\\Fiorella.App\\Fiorella.App\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Fiorella.App\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T20:55:20.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Learning Programming\\Jed Academy\\Backend\\MVS\\Fiorella\\Fiorella.App\\Fiorella.App\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Fiorella.App\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Learning Programming\\Jed Academy\\Backend\\MVS\\Fiorella\\Fiorella.App\\Fiorella.App\\Models\\Category.cs",
+              "RelativeToolTip": "Fiorella.App\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T20:53:16.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Learning Programming\\Jed Academy\\Backend\\MVS\\Fiorella\\Fiorella.App\\Fiorella.App\\Models\\Base Models\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Fiorella.App\\Models\\Base Models\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Learning Programming\\Jed Academy\\Backend\\MVS\\Fiorella\\Fiorella.App\\Fiorella.App\\Models\\Base Models\\BaseEntity.cs",
+              "RelativeToolTip": "Fiorella.App\\Models\\Base Models\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T20:51:33.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Learning Programming\\Jed Academy\\Backend\\MVS\\Fiorella\\Fiorella.App\\Fiorella.App\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "Fiorella.App\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Learning Programming\\Jed Academy\\Backend\\MVS\\Fiorella\\Fiorella.App\\Fiorella.App\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "Fiorella.App\\ScaffoldingReadMe.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-07-19T20:50:38.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Learning Programming\\Jed Academy\\Backend\\MVS\\Fiorella\\Fiorella.App\\Fiorella.App\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Fiorella.App\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Learning Programming\\Jed Academy\\Backend\\MVS\\Fiorella\\Fiorella.App\\Fiorella.App\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Fiorella.App\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T20:11:51.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Learning Programming\\Jed Academy\\Backend\\MVS\\Fiorella\\Fiorella.App\\Fiorella.App\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Fiorella.App\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Learning Programming\\Jed Academy\\Backend\\MVS\\Fiorella\\Fiorella.App\\Fiorella.App\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Fiorella.App\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAOMBAAAAAAAAAAAAAJsAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T19:33:24.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Learning Programming\\Jed Academy\\Backend\\MVS\\Fiorella\\Fiorella.App\\Fiorella.App\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Fiorella.App\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Learning Programming\\Jed Academy\\Backend\\MVS\\Fiorella\\Fiorella.App\\Fiorella.App\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Fiorella.App\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T19:33:23.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Learning Programming\\Jed Academy\\Backend\\MVS\\Fiorella\\Fiorella.App\\Fiorella.App\\appsettings.json",
+              "RelativeDocumentMoniker": "Fiorella.App\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Learning Programming\\Jed Academy\\Backend\\MVS\\Fiorella\\Fiorella.App\\Fiorella.App\\appsettings.json",
+              "RelativeToolTip": "Fiorella.App\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-19T19:28:45.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FiorellaDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Learning Programming\\Jed Academy\\Backend\\MVS\\Fiorella\\Fiorella.App\\Fiorella.App\\Context\\FiorellaDbContext.cs",
+              "RelativeDocumentMoniker": "Fiorella.App\\Context\\FiorellaDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Learning Programming\\Jed Academy\\Backend\\MVS\\Fiorella\\Fiorella.App\\Fiorella.App\\Context\\FiorellaDbContext.cs",
+              "RelativeToolTip": "Fiorella.App\\Context\\FiorellaDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T19:17:30.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Learning Programming\\Jed Academy\\Backend\\MVS\\Fiorella\\Fiorella.App\\Fiorella.App\\Program.cs",
+              "RelativeDocumentMoniker": "Fiorella.App\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Learning Programming\\Jed Academy\\Backend\\MVS\\Fiorella\\Fiorella.App\\Fiorella.App\\Program.cs",
+              "RelativeToolTip": "Fiorella.App\\Program.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAABwAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T19:16:54.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Learning Programming\\Jed Academy\\Backend\\MVS\\Fiorella\\Fiorella.App\\Fiorella.App\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Fiorella.App\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Learning Programming\\Jed Academy\\Backend\\MVS\\Fiorella\\Fiorella.App\\Fiorella.App\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Fiorella.App\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T18:54:58.8Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

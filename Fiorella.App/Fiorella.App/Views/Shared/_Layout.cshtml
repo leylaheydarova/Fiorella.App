@@ -1,49 +1,483 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Fiorella.App</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/Fiorella.App.styles.css" asp-append-version="true" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiorella</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+          integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="~/assets/scss/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/assets/scss/owl.theme.default.min.css">
+    <link rel="stylesheet" href="~/assets/scss/style.css">
 </head>
+
 <body>
+    <div class="goHeadButton">
+        <i class="fas fa-chevron-up"></i>
+    </div>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Fiorella.App</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
+        <nav class="mainNav">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="nav-left logo col-lg-2 col-md-4 col-8">
+                        <a href="">
+                            <img style="width: 100%;"
+                                 src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h2-logo-1.png"
+                                 alt="">
+                        </a>
+                    </div>
+                    <div class="nav-right col-lg-10">
+                        <div class="nav-links col-lg-7" style="
+                                    display: flex;
+                                    align-items: center;">
+                            <ul style="margin-bottom: 0%;">
+                                <li style="border-bottom: 1px solid;">
+                                    <a href=""><span>HOME</span></a>
+
+
+                                    <div class="homeUlDiv">
+                                        <ul class="home">
+                                            <li style="border-bottom: 1px solid;"><a href=""><span>MAIN HOME</span></a></li>
+                                            <li><a href=""><span>GRID HOME</span></a></li>
+                                            <li><a href=""><span>FLOWER SHOP</span></a></li>
+                                            <li><a href=""><span>ANIMATED SLIDER</span></a></li>
+                                            <li><a href=""><span>METRO SHOWCASE</span></a></li>
+                                            <li><a href=""><span>CAROUSEL SHOWCASE</span></a></li>
+                                            <li><a href=""><span>LANDING</span></a></li>
+                                        </ul>
+                                    </div>
+
+
+
+
+                                </li>
+                                <li>
+                                    <a href=""><span>PAGES</span></a>
+                                    <div class="pagesUlDiv">
+                                        <ul class="pages">
+                                            <li><a href=""><span>ABOUT US</span></a></li>
+                                            <li><a href=""><span>FAQ PAGE</span></a></li>
+                                            <li><a href=""><span>CONTACT US</span></a></li>
+                                        </ul>
+                                    </div>
+
+                                </li>
+                                <li>
+                                    <a href=""><span>SHOP</span></a>
+
+
+                                    <div class="shopcards">
+                                        <ul class="producttypes">
+                                            <h2>Product Types</h2>
+                                            <li>
+                                                <a href="">
+                                                    <span>
+                                                        STANDART
+                                                        PRODUCT
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li><a href=""><span>GROUPED PRODUCT</span></a></li>
+                                            <li><a href=""><span>VARIABLE PRODUCT</span></a></li>
+                                            <li><a href=""><span>VIRTUAL PRODUCT</span></a></li>
+                                            <li><a href=""><span>EXTERNAL PRODUCT</span></a></li>
+                                            <li><a href=""><span>DOWNLOADABLE PRODUCT</span></a></li>
+                                            <li><a href=""><span>ONSALE PRODUCT</span></a></li>
+                                            <li><a href=""><span>OUT OF STOCK</span></a></li>
+                                            <li><a href=""><span>NEW PRODUCT</span></a></li>
+                                        </ul>
+                                        <ul class="shoppages">
+                                            <h2>Shop Pages</h2>
+                                            <li><a href=""><span>MY ACCOUNT</span></a></li>
+                                            <li><a href=""><span>CART</span></a></li>
+                                            <li><a href=""><span>CHECKOUT</span></a></li>
+                                            <li><a href=""><span>ORDERS</span></a></li>
+                                            <li><a href=""><span>DOWNLOADS</span></a></li>
+                                        </ul>
+                                        <ul class="shoptypes">
+                                            <h2>Shop Types</h2>
+                                            <li><a href=""><span>PRODUCT LIST</span></a></li>
+                                            <li><a href=""><span>WITHOUT SIDEBAR</span></a></li>
+                                            <li><a href=""><span>WITH CATEGORY FILTER</span></a></li>
+                                            <li><a href=""><span>WITH ORDERING FILTER</span></a></li>
+                                            <li><a href=""><span>SHOP CAROUSEL</span></a></li>
+                                            <li><a href=""><span>PRODUCT CATEGORIES</span></a></li>
+                                            <li><a href=""><span>SINGLE CATEGORY</span></a></li>
+                                        </ul>
+                                        <ul class="shoplayouts">
+                                            <h2>Shop Layouts</h2>
+                                            <li><a href=""><span>TWO COLUMNS GRID</span></a></li>
+                                            <li><a href=""><span>THREE COLUMNS GRID</span></a></li>
+                                            <li><a href=""><span>FOUR COLUMNS GRID</span></a></li>
+                                            <li><a href=""><span>FOUR COLUMNS WIDE</span></a></li>
+                                            <li><a href=""><span>FIVE COLUMNS WIDE</span></a></li>
+                                            <li><a href=""><span>SIX COLUMNS WIDE</span></a></li>
+                                        </ul>
+                                    </div>
+
+
+
+
+
+
+
+                                </li>
+                                <li>
+                                    <a href=""><span>PORTFOLIO</span></a>
+
+
+                                    <div class="portfolioUlDiv">
+                                        <ul class="portfolio">
+                                            <li><a href=""><span>STANDART</span></a></li>
+                                            <li><a href=""><span>GALLERY</span></a></li>
+                                            <li><a href=""><span>MASONRY</span></a></li>
+                                            <li id="prtflayout">
+                                                <a href="">
+                                                    <span>PORTFOLIO LAYOUTS </span><i class="fas fa-chevron-right"></i>
+                                                </a>
+
+
+
+                                                <ul class="portfoliolayouts">
+                                                    <li><a href=""><span>TWO COLUMNS GRID</span></a></li>
+                                                    <li><a href=""><span>THREE COLUMNS GRID</span></a></li>
+                                                    <li><a href=""><span>FOUR COLUMNS GRID</span></a></li>
+                                                    <li><a href=""><span>FOUR COLUMNS WIDE</span></a></li>
+                                                    <li><a href=""><span>FIVE COLUMNS WIDE</span></a></li>
+                                                </ul>
+
+
+
+
+                                            </li>
+                                            <li id="prtflsingle">
+                                                <a href="">
+                                                    <span>PORTFOLIO SINGLE </span> <i class="fas fa-chevron-right"></i>
+                                                </a>
+
+                                                <ul class="portfoliosingle">
+                                                    <li><a href=""><span>SMALL IMAGES</span></a></li>
+                                                    <li><a href=""><span>SMALL SLIDER</span></a></li>
+                                                    <li><a href=""><span>BIG IMAGES</span></a></li>
+                                                    <li><a href=""><span>BIG SLIDER</span></a></li>
+                                                    <li><a href=""><span>GALLERY</span></a></li>
+                                                </ul>
+
+
+
+
+
+                                            </li>
+                                        </ul>
+                                    </div>
+
+
+
+
+                                </li>
+                                <li>
+                                    <a href=""><span>BLOG</span></a>
+
+                                    <div class="blogUlDiv">
+                                        <ul class="blog">
+                                            <li><a href=""><span>MASONRY</span></a></li>
+                                            <li><a href=""><span>STANDART</span></a></li>
+                                            <li class="post">
+                                                <a href="">
+                                                    <span>POST TYPES</span><i class="fas fa-chevron-right"></i>
+                                                </a>
+
+
+                                                <ul class="bloginlinks">
+                                                    <li><a href=""><span>STANDART</span></a></li>
+                                                    <li><a href=""><span>LINK</span></a></li>
+                                                    <li><a href=""><span>GALLERY</span></a></li>
+                                                    <li><a href=""><span>QUOTE</span></a></li>
+                                                    <li><a href=""><span>AUDIO</span></a></li>
+                                                    <li><a href=""><span>VIDEO</span></a></li>
+                                                </ul>
+
+
+                                            </li>
+                                        </ul>
+                                    </div>
+
+
+
+                                </li>
+                                <li>
+                                    <a href=""><span>ELEMENTS</span></a>
+
+                                    <div class="elementsUlDiv">
+                                        <ul class="elements">
+                                            <li class="classicli">
+                                                <a href="">
+                                                    <i class="fas fa-chevron-left"></i><span>CLASSIC</span>
+                                                </a>
+
+                                                <ul class="classic">
+                                                    <li><a href=""><span>ACCORDIONS</span></a></li>
+                                                    <li><a href=""><span>TABS</span></a></li>
+                                                    <li><a href=""><span>BUTTONS</span></a></li>
+                                                    <li><a href=""><span>VIDEO BUTTON</span></a></li>
+                                                    <li><a href=""><span>CONTACT FORM</span></a></li>
+                                                </ul>
+
+                                            </li>
+                                            <li class="infographicli">
+                                                <a href="">
+                                                    <i class="fas fa-chevron-left"></i><span>INFOGRAPHIC</span>
+                                                </a>
+
+                                                <ul class="infographic">
+                                                    <li><a href=""><span>BLOGLIST</span></a></li>
+                                                    <li><a href=""><span>COUNTERS</span></a></li>
+                                                    <li><a href=""><span>COUNTDOWN</span></a></li>
+                                                    <li><a href=""><span>GOOGLE MAPS</span></a></li>
+                                                    <li><a href=""><span>PROGRESS BAR</span></a></li>
+                                                    <li><a href=""><span>PIE CHAPS</span></a></li>
+                                                </ul>
+
+                                            </li>
+                                            <li class="interactiveli">
+                                                <a href="">
+                                                    <i class="fas fa-chevron-left"></i><span>INTERACTIVE</span>
+                                                </a>
+
+                                                <ul class="interactive">
+                                                    <li><a href=""><span>IMAGE GALLERY</span></a></li>
+                                                    <li><a href=""><span>TESTMIONALS</span></a></li>
+                                                    <li><a href=""><span>TEAM</span></a></li>
+                                                    <li><a href=""><span>BANNER</span></a></li>
+                                                    <li><a href=""><span>SHOP LIST</span></a></li>
+                                                    <li><a href=""><span>PORTFOLIO LIST</span></a></li>
+                                                </ul>
+
+                                            </li>
+                                            <li class="typographyli">
+                                                <a href="">
+                                                    <i class="fas fa-chevron-left"></i><span>TYPOGRAPHY</span>
+                                                </a>
+
+
+                                                <ul class="typography">
+                                                    <li><a href=""><span>HEADINGS</span></a></li>
+                                                    <li><a href=""><span>COLUMNS</span></a></li>
+                                                    <li><a href=""><span>SECTION TITLE</span></a></li>
+                                                    <li><a href=""><span>BLACKQUOTE</span></a></li>
+                                                    <li><a href=""><span>DROPCAPS</span></a></li>
+                                                    <li><a href=""><span>HIGHLIGHTS</span></a></li>
+                                                    <li><a href=""><span>SEPERATORS</span></a></li>
+                                                    <li><a href=""><span>CUSTOM FONT</span></a></li>
+                                                </ul>
+
+                                            </li>
+                                        </ul>
+                                    </div>
+
+
+
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="search-shopping col-lg-3">
+                            <div style="position: absolute;top: 100%;opacity: 0%;transition: 0.3s;" class="alert alert-danger d-flex align-items-center basketAlert" role="alert">
+                                <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Danger:"><use xlink:href="#exclamation-triangle-fill" /></svg>
+                                <div>
+                                    Your basket is empty!
+                                </div>
+                            </div>
+                            <div class="basketList">
+                                <div class="listProducts">
+                                </div>
+
+                                <div class="price-buttons">
+                                    <div class="totalPrice">
+                                        <div class="totalText">
+                                            <span>TOTAL :</span>
+                                        </div>
+                                        <div class="priceText">
+                                            <span>$</span>
+                                            <span>0</span>
+                                        </div>
+                                    </div>
+                                    <div class="viewCart-checkOut">
+                                        <div class="viewCartBox">
+                                            <span>VIEW CART</span>
+                                        </div>
+                                        <div class="checkOutBox">
+                                            <span>CHECKOUT</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="search-icon">
+                                <i class="fas fa-search"></i>
+                                <input type="search" placeholder="Search...">
+                            </div>
+
+                            <div class="shopping" style="
+                                    height: 97.52px; align-items: center;">
+                                <div class="shop-icon">
+                                    <i class="fas fa-shopping-bag"></i>
+                                    <div class="bag-count">
+                                        <p>0</p>
+                                    </div>
+                                </div>
+                                <div class="shop-basket">
+                                    <span>CART</span><span>($</span><span>0</span><span>)</span>
+                                </div>
+                                <!-- <div class="basketList">
+                                    <div class="listProducts">
+
+                                    </div>
+
+                                        <div class="price-buttons">
+                                            <div class="totalPrice">
+                                                <div class="totalText">
+                                                    <span>TOTAL :</span>
+                                                </div>
+                                                <div class="priceText">
+                                                    <span>$</span>
+                                                    <span>0</span>
+                                                </div>
+                                            </div>
+                                            <div class="viewCart-checkOut">
+                                                <div class="viewCartBox">
+                                                    <span>VIEW CART</span>
+                                                </div>
+                                                <div class="checkOutBox">
+                                                    <span>CHECKOUT</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+    
 
-    <footer class="border-top footer text-muted">
+            @RenderBody()
+    <footer>
         <div class="container">
-            &copy; 2024 - Fiorella.App - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <div class="row">
+                <div class="top">
+                    <div class="list col-lg-3 col-md-6 col-12">
+                        <h5>CUSTOMER SERVICE</h5>
+                        <ul>
+                            <li><a href="">Help & Contact Us</a></li>
+                            <li><a href="">Returns & Refunds</a></li>
+                            <li><a href="">Online Stores</a></li>
+                            <li><a href="">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+                    <div class="list col-lg-3 col-md-6 col-12">
+                        <h5>
+                            COMPANY
+                        </h5>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    About Us
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Blog
+                                </a>
+                            </li>
+                            <li><a href="">Order Tracking</a></li>
+                            <li><a href="">FAQ Page</a></li>
+                            <li><a href="">Contact Us</a></li>
+                            <li><a href="">Login</a></li>
+                        </ul>
+                    </div>
+                    <div class="list col-lg-3 col-md-6 col-12">
+                        <h5>SOCIAL MEDIA</h5>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    Twitter
+                                </a>
+                            </li>
+                            <li><a href="">Instagram</a></li>
+                            <li><a href="">Linkedin</a></li>
+                            <li><a href="">Tumblr</a></li>
+                        </ul>
+                    </div>
+                    <div class="list col-lg-3 col-md-6 col-12">
+                        <h5>ARCHIVE</h5>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    Designer Shoes
+                                </a>
+                            </li>
+                            <li><a href="">Gallery</a></li>
+                            <li><a href="">Pricing</a></li>
+                            <li><a href="">Feature Index</a></li>
+                            <li><a href="">Login</a></li>
+                            <li><a href="">Help & Support</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="copyright col-lg-4 col-md-12 col-12">
+                        <span>© 2018 <a href="">Qode Interactive</a>, All Rights Reserved</span>
+                    </div>
+                    <div class="bankicons col-lg-4 col-md-12 col-12">
+                        <img src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/footer-bottom-1.png"
+                             alt="">
+                    </div>
+                    <div class="socialmedia col-lg-4 col-md-12 col-12">
+                        <div class="insta">
+                            <a href="">INSTAGRAM</a>
+                        </div>
+                        <div class="face">
+                            <a href="">FACEBOOK</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
     </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+            integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="~/assets/js/parallax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+            integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+
+    <script src="~/assets/js/owl.carousel.min.js"></script>
+    <script src="~/assets/js/main.js"></script>
+    <script src="~/assets/js/homepage.js"></script>
+
 </body>
+
 </html>
