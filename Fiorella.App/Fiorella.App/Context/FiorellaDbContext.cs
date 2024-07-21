@@ -1,4 +1,5 @@
 ﻿using Fiorella.App.Models;
+using Fiorella.App.Models.Base_Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace Fiorella.App.Context
