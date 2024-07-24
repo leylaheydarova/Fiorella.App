@@ -6,7 +6,7 @@ namespace Fiorella.App.Context
 {
     public class FiorellaDbContext:DbContext
     {
-        DbSet<Category>Categories { get; set; }
+        public DbSet<Category> Categories { get; set; }
         public FiorellaDbContext(DbContextOptions<FiorellaDbContext> options) : base(options)
         {
         }
