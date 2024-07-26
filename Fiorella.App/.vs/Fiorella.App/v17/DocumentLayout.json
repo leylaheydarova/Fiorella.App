@@ -1,105 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Learning Programming\\Jed Academy\\Backend\\MVS\\Fiorella\\Fiorella.App\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{7CF671D4-0C48-4DA0-8FDD-BEEA76E23B73}|Fiorella.App\\Fiorella.App.csproj|c:\\users\\user\\desktop\\learning programming\\jed academy\\backend\\mvs\\fiorella\\fiorella.app\\fiorella.app\\areas\\admin\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CF671D4-0C48-4DA0-8FDD-BEEA76E23B73}|Fiorella.App\\Fiorella.App.csproj|solutionrelative:fiorella.app\\areas\\admin\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7CF671D4-0C48-4DA0-8FDD-BEEA76E23B73}|Fiorella.App\\Fiorella.App.csproj|c:\\users\\user\\desktop\\learning programming\\jed academy\\backend\\mvs\\fiorella\\fiorella.app\\fiorella.app\\validations\\blog\\blogupdatedtovalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CF671D4-0C48-4DA0-8FDD-BEEA76E23B73}|Fiorella.App\\Fiorella.App.csproj|solutionrelative:fiorella.app\\validations\\blog\\blogupdatedtovalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7CF671D4-0C48-4DA0-8FDD-BEEA76E23B73}|Fiorella.App\\Fiorella.App.csproj|c:\\users\\user\\desktop\\learning programming\\jed academy\\backend\\mvs\\fiorella\\fiorella.app\\fiorella.app\\profiles\\blogmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CF671D4-0C48-4DA0-8FDD-BEEA76E23B73}|Fiorella.App\\Fiorella.App.csproj|solutionrelative:fiorella.app\\profiles\\blogmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7CF671D4-0C48-4DA0-8FDD-BEEA76E23B73}|Fiorella.App\\Fiorella.App.csproj|c:\\users\\user\\desktop\\learning programming\\jed academy\\backend\\mvs\\fiorella\\fiorella.app\\fiorella.app\\dtos\\blog\\blogupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CF671D4-0C48-4DA0-8FDD-BEEA76E23B73}|Fiorella.App\\Fiorella.App.csproj|solutionrelative:fiorella.app\\dtos\\blog\\blogupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7CF671D4-0C48-4DA0-8FDD-BEEA76E23B73}|Fiorella.App\\Fiorella.App.csproj|c:\\users\\user\\desktop\\learning programming\\jed academy\\backend\\mvs\\fiorella\\fiorella.app\\fiorella.app\\dtos\\blog\\bloggetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CF671D4-0C48-4DA0-8FDD-BEEA76E23B73}|Fiorella.App\\Fiorella.App.csproj|solutionrelative:fiorella.app\\dtos\\blog\\bloggetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 4,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BlogUpdateDtoValidation.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Learning Programming\\Jed Academy\\Backend\\MVS\\Fiorella\\Fiorella.App\\Fiorella.App\\Validations\\Blog\\BlogUpdateDtoValidation.cs",
-              "RelativeDocumentMoniker": "Fiorella.App\\Validations\\Blog\\BlogUpdateDtoValidation.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Learning Programming\\Jed Academy\\Backend\\MVS\\Fiorella\\Fiorella.App\\Fiorella.App\\Validations\\Blog\\BlogUpdateDtoValidation.cs",
-              "RelativeToolTip": "Fiorella.App\\Validations\\Blog\\BlogUpdateDtoValidation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T12:43:49.624Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BlogMap.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Learning Programming\\Jed Academy\\Backend\\MVS\\Fiorella\\Fiorella.App\\Fiorella.App\\Profiles\\BlogMap.cs",
-              "RelativeDocumentMoniker": "Fiorella.App\\Profiles\\BlogMap.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Learning Programming\\Jed Academy\\Backend\\MVS\\Fiorella\\Fiorella.App\\Fiorella.App\\Profiles\\BlogMap.cs",
-              "RelativeToolTip": "Fiorella.App\\Profiles\\BlogMap.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T12:43:25.726Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BlogGetDto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Learning Programming\\Jed Academy\\Backend\\MVS\\Fiorella\\Fiorella.App\\Fiorella.App\\Dtos\\Blog\\BlogGetDto.cs",
-              "RelativeDocumentMoniker": "Fiorella.App\\Dtos\\Blog\\BlogGetDto.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Learning Programming\\Jed Academy\\Backend\\MVS\\Fiorella\\Fiorella.App\\Fiorella.App\\Dtos\\Blog\\BlogGetDto.cs",
-              "RelativeToolTip": "Fiorella.App\\Dtos\\Blog\\BlogGetDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T12:40:17.832Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BlogUpdateDto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Learning Programming\\Jed Academy\\Backend\\MVS\\Fiorella\\Fiorella.App\\Fiorella.App\\Dtos\\Blog\\BlogUpdateDto.cs",
-              "RelativeDocumentMoniker": "Fiorella.App\\Dtos\\Blog\\BlogUpdateDto.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Learning Programming\\Jed Academy\\Backend\\MVS\\Fiorella\\Fiorella.App\\Fiorella.App\\Dtos\\Blog\\BlogUpdateDto.cs",
-              "RelativeToolTip": "Fiorella.App\\Dtos\\Blog\\BlogUpdateDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T12:40:12.555Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BlogController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Learning Programming\\Jed Academy\\Backend\\MVS\\Fiorella\\Fiorella.App\\Fiorella.App\\Areas\\Admin\\Controllers\\BlogController.cs",
-              "RelativeDocumentMoniker": "Fiorella.App\\Areas\\Admin\\Controllers\\BlogController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Learning Programming\\Jed Academy\\Backend\\MVS\\Fiorella\\Fiorella.App\\Fiorella.App\\Areas\\Admin\\Controllers\\BlogController.cs",
-              "RelativeToolTip": "Fiorella.App\\Areas\\Admin\\Controllers\\BlogController.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAqwEsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T11:51:26.302Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

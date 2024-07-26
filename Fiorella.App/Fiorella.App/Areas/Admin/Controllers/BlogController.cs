@@ -26,10 +26,8 @@ namespace Fiorella.App.Areas.Admin.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var query = _context.Blogs.Where(x => !x.IsDeleted).AsQueryable();
-            List< BlogGetDto> dtos = new List<BlogGetDto>();
-            dtos = await query.Select(x=> new BlogGetDto{ Id = x.Id, Title = x.Title, Description = x.Description}).ToListAsync();
-            return View(dtos);
+            ICollection<Blog> blogs = await _context.Blogs.Where(x=>!x.IsDeleted).ToListAsync();
+            return View(blogs);
         }
 
         public async Task<IActionResult> Create()
@@ -68,12 +66,32 @@ namespace Fiorella.App.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Update(int id, BlogUpdateDto dto)
         {
+            Blog updatedblog = await _context.Blogs.FirstOrDefaultAsync(x => !x.IsDeleted && x.Id == id);
+            if (updatedblog == null)
+            {
+                return NotFound();
+            }
+            if (dto.formFile != null)
+            {
+                updatedblog.Image = await dto.formFile.SaveFileAsync(_env.WebRootPath, updatedblog.Blogurl);
+            }
+            updatedblog.Title = dto.Title;
+            updatedblog.Description = dto.Description;
+            updatedblog.Updatedat = DateTime.Now;
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+
+        public async Task<IActionResult> Remove(int id)
+        {
             Blog blog = await _context.Blogs.FirstOrDefaultAsync(x => !x.IsDeleted && x.Id == id);
             if (blog == null)
             {
                 return NotFound();
             }
-
+            blog.IsDeleted = true;
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
         }
     }
 }
