@@ -1,9 +1,9 @@
-﻿using Fiorella.App.Dtos.Category;
+﻿using Fiorella.App.Dtos.Position;
 using FluentValidation;
 
-namespace Fiorella.App.Validations.Category
+namespace Fiorella.App.Validations.Position
 {
-    public class PositionUpdateDtoValidation:AbstractValidator<CategoryUpdateDto>
+    public class PositionUpdateDtoValidation:AbstractValidator<PositionUpdateDto>
     {
         public PositionUpdateDtoValidation()
         {

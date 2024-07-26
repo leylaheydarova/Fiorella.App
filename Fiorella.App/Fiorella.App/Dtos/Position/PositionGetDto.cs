@@ -1,6 +1,6 @@
-﻿namespace Fiorella.App.Dtos.Category
+﻿namespace Fiorella.App.Dtos.Position
 {
-    public record CategoryUpdateDto
+    public record PositionGetDto
     {
         public int Id { get; set; }
         public string Name { get; set; }

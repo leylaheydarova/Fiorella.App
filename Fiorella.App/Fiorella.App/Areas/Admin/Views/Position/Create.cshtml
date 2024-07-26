@@ -1,5 +1,4 @@
-﻿@model CategoryUpdateDto
-
+﻿@model PositionPostDto
 <div class="container">
     <form method="post">
         <div class="mb-3">
@@ -7,7 +6,8 @@
             <input type="text" class="form-control" asp-for="@Model.Name" />
             <span class="text text-danger" asp-validation-for="@Model.Name"></span>
         </div>
-        <button type="submit" class="btn btn-primary">Update</button>
+        <button type="submit" class="btn btn-primary">Create</button>
         @Html.AntiForgeryToken();
     </form>
 </div>
+

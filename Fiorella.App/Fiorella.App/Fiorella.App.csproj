@@ -580,6 +580,7 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\assets\images\blog\" />
+    <Folder Include="wwwroot\assets\images\employee\" />
   </ItemGroup>
 
 </Project>

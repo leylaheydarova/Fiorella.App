@@ -1,11 +1,11 @@
-﻿using Fiorella.App.Dtos.Category;
+﻿using Fiorella.App.Dtos.Position;
 using FluentValidation;
 
 namespace Fiorella.App.Validations.Category
 {
-    public class PositionUpdateDtoValidation:AbstractValidator<CategoryUpdateDto>
+    public class PositionPostDtoValidation:AbstractValidator<PositionPostDto>
     {
-        public PositionUpdateDtoValidation()
+        public PositionPostDtoValidation()
         {
             RuleFor(x => x.Name)
                 .NotEmpty().WithMessage("Name cannot be empty!")
