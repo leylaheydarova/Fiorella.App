@@ -578,4 +578,8 @@
     <None Include="wwwroot\assets\scss\.DS_Store" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\assets\images\blog\" />
+  </ItemGroup>
+
 </Project>
